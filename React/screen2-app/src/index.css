@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 80%;
+  width: 100%;
+}
+.image{
+  height: 30px;
+}

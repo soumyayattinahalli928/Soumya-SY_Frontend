@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let marks=60;
+        let result=(marks<50)?"Failed":(marks>=50 && marks<=60)?"secondclass":(marks<60 && marks<=80)?"distiction":"Excellent";
+        console.log(result);
+
+        //add to numbers
+        function add(a,b)
+        {
+            return a+b;
+        }
+        console.log(add(20,40));
+
+        //switch
+        // let marks1=90;
+
+        
+        // let ch=prompt("enter choice");
+        // switch(ch)
+        // {
+        //     case '1':{
+        //       marks1<40;
+        //       console.log("fail");
+        //     }break;
+            // case '2':{
+            //     if(marks1>=40 && marks1<80)
+            //     {
+            //         console.log("distiction");
+            //     }
+            // }break;
+            // case '3':{
+            //     if(marks>=80)
+            //     {
+            //         console.log("topper");
+            //     }
+            // }break;
+            // default :{
+            //     console.log("invalid vhoice");
+            // }
+       // }
+
+        //print dayname 
+        let ch=prompt("enter your choice");
+        switch(ch)
+        {
+            case '1':{
+                console.log("Monday");
+            }break;
+            case '2':{
+                console.log("Tuesday");
+            }break;
+            case '3':{
+                console.log("Wednesday");
+            }break;
+            case '4':{
+                console.log("Thursday");
+            }break;
+            case '5':{
+                console.log("Friday");
+            }break;
+            case '6':{
+                console.log("Saturday");
+            }break;
+            case '7':{
+                console.log("Sunday");
+            }break;
+            default:{
+                console.log("invalid choice");
+            }
+        }
+
+    </script>
+</body>
+</html>
